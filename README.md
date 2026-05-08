@@ -1,9 +1,17 @@
-# Operating Systems (IOS) - Project 2
+# Process Synchronization & Concurrency (IOS)
 
-Process synchronization project (e.g., Faneuil Hall or Santa Claus problem) using semaphores and shared memory.
+## Overview
+A complex multi-process synchronization project solving the 'Ferry Problem'. Utilizes POSIX semaphores, shared memory, and meticulous process management to handle concurrent vehicles and ferry operations safely.
 
-## Course
-FIT VUT in Brno
+## Key Features
+- **Concurrency:** Models a ferry transport system using multiple processes (`fork`).
+- **Synchronization:** Uses POSIX semaphores (`sem_open`) to prevent race conditions.
+- **Shared Memory:** Synchronized access to ferry state across all processes using `mmap`.
+
+## Course Information
+- **Institution:** Faculty of Information Technology, Brno University of Technology (FIT VUT)
+- **Course:** IOS
 
 ## Author
-Tomáš Zvoníček (xzvonit00)
+- **Name:** Tomáš Zvoníček
+- **Login:** xzvonit00
